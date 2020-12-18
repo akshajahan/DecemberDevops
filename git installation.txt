@@ -1,0 +1,38 @@
+Install git:
+sudo yum install git -y
+
+Create a Directory (if you want):
+mkdir gitsample
+cd gitsample
+
+setup git config:
+git config --global user.name "YourName"
+git config --global user.email "YourEmail"
+
+git config credential.helper store
+
+Create github Account:
+www.github.com and register
+
+Create your own project on github:
+Create a Repository by clicking on New Repo(DevopsGit)
+
+Clone the project to your local:
+git clone url
+
+Git in Action:
+
+Clone: Making a copy of the Repo in our system (downloading)
+Fork: Copy in the Github Account
+Pull: Fetching the last modified repository (refreshing)
+Fetch: Fetches the latest metadata info from the original. + git merge
+
+Git Index and Staging Area:
+
+Working tree -> working copy 
+
+To add into staging Area: git add .
+
+Git diff -> shows difference between working area and staging area.
+
+git diff --staged --> to know about the changes with the previous commits
