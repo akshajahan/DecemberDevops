@@ -33,6 +33,31 @@ Working tree -> working copy
 
 To add into staging Area: git add .
 
+Git Index -> used as a staging area between working directory and repo. 
+git index =newly added files + already committed files
+Staging Area = newly added files. (Do not store committed files)
 Git diff -> shows difference between working area and staging area.
 
 git diff --staged --> to know about the changes with the previous commits
+
+Working with Remote and Upstream:
+git remote -v
+git remote add <shortname> <url>
+git remote show <shortname>
+git remote rename <oldname> <newname>
+git remote remove <shortname>
+
+Branching in Git:
+To create a new Branch: git branch <branchname>
+To know the current Branch: git branch
+To switch among the branches: git checkout <branchname>
+
+To push the newbranch into the remote github:
+git push --set-upstream origin <branchname>
+
+Git Merge: Merge branches from Git
+Only target branch is changed.Source Branch History remains the same.
+
+Git Rebase: Integrate changes from one branch to another.
+Rebase flattens History
+
