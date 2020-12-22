@@ -1,0 +1,30 @@
+1. What is Git?
+2. What is DVCS?
+3. Adv of using VCS?
+4. Diff between Git and SVN?
+5. Diff between Git and Github?
+6. Language used in Git? --> C
+7. Git repo hosting functions?
+Github, Gitlab, Bitbucket, SourceForge and GitEnterprise
+8. What is a repository in Git?
+9. Bare Repository in Git?
+No working files. no .git subdirectory. 
+10. What is a commit message?
+11. Some Basic Git commands
+12. fix a Broken commit
+git commit --commit
+13. Conflict in Git?
+14. How to resolve conflict in Git
+identify the file 
+make the changes
+git add, git commit
+15. revert a commit that has already pushed and made public?
+1. remove and fix the bad file and push the file again
+2. new commit that undoes the previous commits
+(git revert commitid)
+16. what is subgit?
+tool for svn to Git migration.
+17. Diff between Git pull and fetch?
+18. what is staging area or index?
+19. what is use of git instaweb?
+automatically direct a web browser and run a webserver with an interface into your local repo.
