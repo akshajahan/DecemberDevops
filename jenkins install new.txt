@@ -1,0 +1,16 @@
+sudo yum install java
+sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat/jenkins.repo
+sudo rpm --import https://pkg.jenkins.io/redhat/jenkins.io.key
+sudo yum install jenkins -y
+sudo systemctl start jenkins
+sudo systemctl status jenkins
+
+Modify the security group and enable 8080 port (Add rule -> custom TCP -> 8080 port)
+copy the public DNS name: 8080 in the browser
+Enter Initial Password from the folder mentioned.
+sudo su
+var/lib/jenkins/secrets/initialAdminPassword
+Install the default plugins
+Create a new user Account
+
+  
