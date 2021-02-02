@@ -1,0 +1,23 @@
+After installing terrafom 
+
+create new dir ex:demo
+
+in demo folder create games.tf file with the following content
+
+resource "local_file" "foo" {
+  filename = "/root/event.txt" #path and name of the file want to create
+  content = "World cup evenet 2021"
+}
+
+from this folder in bash terminal excute the following command 
+
+#to download required plug-ins
+terraform init
+
+#to check whether the execution plan for a configuration matches your expectations before provisioning or changing infrastructure.
+terraform plan
+
+#to reach desired state / configuration 
+terraform apply
+
+check the file event.txt hasbeen created in specified path
